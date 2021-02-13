@@ -40,7 +40,7 @@ export class Drawing {
     this.inputSeries.clear();
     this.painter.clear();
     this.timestamp = Date.now();
-    this.secondsLeft = 6;
+    this.secondsLeft = 91;
     this.updateEvent.emit(this.inputSeries.points);
   }
 
